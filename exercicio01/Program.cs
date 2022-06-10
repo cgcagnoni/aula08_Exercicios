@@ -28,3 +28,11 @@ int quantidadeTotalDeFilmes()
 }
 
 Console.WriteLine(quantidadeTotalDeFilmes());
+
+// 1.3. Buscar o nome do filme de acordo com seu índice.
+string buscarNomeDoFilmePeloIndice(int indiceDoFilme)
+{
+    return listaDeFilmes[indiceDoFilme];
+}
+
+Console.WriteLine(buscarNomeDoFilmePeloIndice(1));
