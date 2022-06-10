@@ -13,7 +13,6 @@ string apresentaTodosOsFilmesSeparadosPorPontoVirgula()
     }
     return lista;
 }
-
 Console.WriteLine(apresentaTodosOsFilmesSeparadosPorPontoVirgula());
 
 // 1.1. Apresentar quantidade de filmes da lista.
@@ -26,7 +25,6 @@ int quantidadeTotalDeFilmes()
     }
     return contador;
 }
-
 Console.WriteLine(quantidadeTotalDeFilmes());
 
 // 1.3. Buscar o nome do filme de acordo com seu índice.
@@ -34,5 +32,13 @@ string buscarNomeDoFilmePeloIndice(int indiceDoFilme)
 {
     return listaDeFilmes[indiceDoFilme];
 }
-
 Console.WriteLine(buscarNomeDoFilmePeloIndice(1));
+
+// 1.4. Adiciona um novo filme a lista pelo seu nome.
+string[] adicionaUmNovoFilmePeloSeuNome(string nomeDoFilme)
+{
+    Console.WriteLine("Adicione o nome de um filme à lista: ");
+    nomeDoFilme = Console.ReadLine();
+    return listaDeFilmes.Append(nomeDoFilme).ToArray();
+}
+
