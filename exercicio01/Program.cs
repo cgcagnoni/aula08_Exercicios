@@ -42,3 +42,12 @@ string[] adicionaUmNovoFilmePeloSeuNome(string nomeDoFilme)
     return listaDeFilmes.Append(nomeDoFilme).ToArray();
 }
 
+// 1.5. Atualiza um filme a partir do seu índice na lista.
+String[] atualizarUmFilmePeloSeuIndice(int indiceDoFilme)
+{
+
+}
+// 1.6. Listar todos os filmes com seu índice/posição na lista.
+String[] listarTodosOsFilmesComSeuIndiceNaLista()
+{
+}
