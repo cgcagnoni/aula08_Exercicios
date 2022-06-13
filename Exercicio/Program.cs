@@ -10,6 +10,18 @@ string apresentaTodosOsFilmesSeparadosPorPontoVirgula()
 Console.WriteLine(apresentaTodosOsFilmesSeparadosPorPontoVirgula());
 Console.WriteLine();
 
+int quantidadeTotalDeFilmes()
+{
+    int qtd = 0;
+    for(int i = 0; i < listaDeFilmes.Length; i++)
+    {
+        qtd += 1;
+    }
+    return qtd;
+}
+
+Console.WriteLine($"Quantidade total de filmes na lista: {quantidadeTotalDeFilmes()}");
+Console.WriteLine();
 
 
 
