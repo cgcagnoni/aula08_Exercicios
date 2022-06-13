@@ -29,3 +29,4 @@
 #### 3. Responda, qual tipo de variável é retornada pela função apresentaTodosOsFilmesSeparadosPorPontoVirgula()?
 
 - cassiofreitas = `String`.
+- cgcagnoni: `String`
