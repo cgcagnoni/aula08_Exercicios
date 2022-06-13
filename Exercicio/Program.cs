@@ -12,16 +12,30 @@ Console.WriteLine();
 
 int quantidadeTotalDeFilmes()
 {
-    int qtd = 0;
+    /*int qtd = 0;
     for(int i = 0; i < listaDeFilmes.Length; i++)
     {
         qtd += 1;
     }
-    return qtd;
+    return qtd;*/
+
+    int quantidadeDosItens = listaDeFilmes.Length;
+
+    return quantidadeDosItens;
 }
 
 Console.WriteLine($"Quantidade total de filmes na lista: {quantidadeTotalDeFilmes()}");
 Console.WriteLine();
+
+string buscarNomeDoFilmePeloIndice(int indiceDoFilme)
+{
+
+    return listaDeFilmes[indiceDoFilme];
+}
+
+Console.WriteLine($"Buscar o filme pelo índice: 5 {buscarNomeDoFilmePeloIndice(5)}");
+Console.WriteLine();
+
 
 
 
